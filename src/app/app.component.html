@@ -1,12 +1,11 @@
 <div class="grid">
     <div class="col-4">
 
-        <p-card header="HOME">
+        <p-card header="HOME" [style]="{'background-color':'#073FDB'}">
             <i class="pi pi-home" style="font-size: 2rem"></i>
         </p-card>
-        
 
-        <p-card header="BIENVENIDO">
+        <p-card header="BIENVENIDO" [style]="{'background-color':'#21E2F2'}">
             <p-avatar image="/assets/img/adri2.png" size="xlarge" shape="circle"></p-avatar><br>
             Este es tu panel de control, desde aquí podrás acceder a tu listado de películas y ver las diferentes
             novedades.
@@ -15,12 +14,12 @@
 
     <div class="col-4">
 
-        <p-card header="LISTADO DE PELÍCULAS">
+        <p-card header="LISTADO DE PELÍCULAS" [style]="{'background-color':'#21E2F2'}">
             <i class="pi pi-home" style="font-size: 2rem"></i>
         </p-card>
         
         <p-card header="Pulsa en el Icono para acceder a tu listado">
-            <button pButton type="button" label="Listado" routerLink="/table" class="p-button-warning"></button> <br>
+            <button pButton type="button" label="Listado" routerLink="/table" class="p-button-primary"></button> <br>
         </p-card>
     </div>
     <div class="col-4">
@@ -30,7 +29,10 @@
 <div class="grid">
     <div class="col-4">
 
-        <p-card header="RECOMENDACIONES DE LA SEMANA">
+        <p-card header="RECOMENDACIONES DE LA SEMANA" [style]="{'background-color':'#21E2F2'}">
+            
+        </p-card>
+        <p-card header="BIENVENIDO">
             <ul>
                 <li>El Último Mohicano</li>
                 <img src="../assets/img/adri2.png" alt="Italian Trulli" style="width:50px;height:60px;">
@@ -46,26 +48,26 @@
     </div>
 
     <div class="col-4">
-        <p-card header="NOTAS"></p-card><br>
+        <p-card header="NOTAS" [style]="{'background-color':'#21E2F2'}"></p-card><br>
         <textarea pInputTextarea></textarea>
 
     </div>
     <div class="col-4">
-        <p-card header="PRÓXIMOS ESTRENOS">
-            Contenido
-            <ng-template pTemplate="footer">
-                Pie de Página
-            </ng-template>
+        <p-card header="PRÓXIMOS ESTRENOS" [style]="{'background-color':'#21E2F2'}">
         </p-card>
-
-
-
-        <p-card header="Procesos de integración">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae
-                numquam deserunt
-                quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate
-                neque quas!</p>
-            Texto generado con <a href="https://humoipsum.com/">Hump Ipsum</a>
+        <p-card header="BIENVENIDO">
+            <ul>
+                <li>El Último Mohicano</li>
+                <img src="../assets/img/adri2.png" alt="Italian Trulli" style="width:50px;height:60px;">
+                <li>Titanic</li>
+                <img src="../assets/img/adri2.png" alt="Italian Trulli" style="width:50px;height:60px;">
+                <li>Jumanji</li>
+                <img src="../assets/img/adri2.png" alt="Italian Trulli" style="width:50px;height:60px;">
+              </ul>
+            <ng-template pTemplate="footer">
+              La Próxima semana más
+            </ng-template>
         </p-card>
     </div>
 </div>
+<router-outlet></router-outlet>
