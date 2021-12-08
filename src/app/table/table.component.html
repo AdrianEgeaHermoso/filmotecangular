@@ -1,0 +1,38 @@
+
+<p>table works!</p>
+<p-table [value]="products" [paginator]="true" [rows]="10">
+  <ng-template pTemplate="header">
+    <tr>
+      <th>ID</th>
+      <th>Código</th>
+      <th>Nombre</th>
+      <th>Descripción</th>
+      <th>Precio</th>
+      <th>Cantidad</th>
+      <th>Estado de inventario</th>
+      <th>Categoría</th>
+      <th>Imagen</th>
+      <th>Puntuación</th>
+      <th></th>
+      <th></th>
+    </tr>
+  </ng-template>
+  <ng-template pTemplate="body" let-p>
+    <tr>
+      <td>{{p.id}}</td>
+      <td>{{p.code}}</td>
+      <td>{{p.name}}</td>
+      <td>{{p.description}}</td>
+      <td>{{p.price}}</td>
+      <td>{{p.quantity}}</td>
+      <td>{{p.inventoryStatus}}</td>
+      <td>{{p.category}}</td>
+      <td><img [src]="'../assets/img/' + p.image" width="120px"></td>
+      <td>{{p.rating}}</td>
+      <td>
+        <button pButton type="button" icon="pi pi-pencil" class="p-button-rounded"></button>
+        <button pButton type="button" icon="pi pi-trash" class="p-button-rounded"></button>
+      </td>
+    </tr>
+  </ng-template>
+</p-table>
