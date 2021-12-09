@@ -1,7 +1,7 @@
 <div class="grid">
     <div class="col-4">
 
-        <p-card header="HOME" [style]="{'background-color':'#073FDB'}">
+        <p-card header="HOME" [style]="{'background-color':'#3393C8'}">
             <i class="pi pi-home" style="font-size: 2rem"></i>
         </p-card>
 
@@ -14,11 +14,11 @@
 
     <div class="col-4">
 
-        <p-card header="LISTADO DE PELÍCULAS" [style]="{'background-color':'#21E2F2'}">
-            <i class="pi pi-home" style="font-size: 2rem"></i>
+        <p-card header="LISTADO DE PELÍCULAS" [style]="{'background-color':'#3393C8'}">
+            <i class="pi pi-list" style="font-size: 2rem"></i>
         </p-card>
-        
-        <p-card header="Pulsa en el Icono para acceder a tu listado">
+
+        <p-card header="Pulsa en el Icono para acceder a tu listado" [style]="{'background-color':'#21E2F2'}">
             <button pButton type="button" label="Listado" routerLink="/table" class="p-button-primary"></button> <br>
         </p-card>
     </div>
@@ -26,13 +26,18 @@
         <app-calendar></app-calendar>
     </div>
 </div>
+
+
+
+
+
 <div class="grid">
     <div class="col-4">
 
-        <p-card header="RECOMENDACIONES DE LA SEMANA" [style]="{'background-color':'#21E2F2'}">
-            
+        <p-card header="RECOMENDACIONES" [style]="{'background-color':'#3393C8'}">
+            <i class="pi pi-eye" style="font-size: 2rem"></i>
         </p-card>
-        <p-card header="BIENVENIDO">
+        <p-card [style]="{'background-color':'#21E2F2'}">
             <ul>
                 <li>El Último Mohicano</li>
                 <img src="../assets/img/adri2.png" alt="Italian Trulli" style="width:50px;height:60px;">
@@ -40,33 +45,30 @@
                 <img src="../assets/img/adri2.png" alt="Italian Trulli" style="width:50px;height:60px;">
                 <li>Jumanji</li>
                 <img src="../assets/img/adri2.png" alt="Italian Trulli" style="width:50px;height:60px;">
-              </ul>
-            <ng-template pTemplate="footer">
-              La Próxima semana más
-            </ng-template>
+            </ul>
         </p-card>
     </div>
 
     <div class="col-4">
-        <p-card header="NOTAS" [style]="{'background-color':'#21E2F2'}"></p-card><br>
+        <p-card header="NOTAS" [style]="{'background-color':'#3393C8'}">
+            <i class="pi pi-paperclip" style="font-size: 2rem"></i>
+        </p-card><br>
         <textarea pInputTextarea></textarea>
 
     </div>
     <div class="col-4">
-        <p-card header="PRÓXIMOS ESTRENOS" [style]="{'background-color':'#21E2F2'}">
+        <p-card header="PRÓXIMOS ESTRENOS" [style]="{'background-color':'#3393C8'}">
+            <i class="pi pi-ticket" style="font-size: 2rem"></i>
         </p-card>
-        <p-card header="BIENVENIDO">
+        <p-card [style]="{'background-color':'#21E2F2'}">
             <ul>
-                <li>El Último Mohicano</li>
-                <img src="../assets/img/adri2.png" alt="Italian Trulli" style="width:50px;height:60px;">
-                <li>Titanic</li>
-                <img src="../assets/img/adri2.png" alt="Italian Trulli" style="width:50px;height:60px;">
-                <li>Jumanji</li>
-                <img src="../assets/img/adri2.png" alt="Italian Trulli" style="width:50px;height:60px;">
-              </ul>
-            <ng-template pTemplate="footer">
-              La Próxima semana más
-            </ng-template>
+                <li>Spider-Man: No Way Home <b>16/12</b></li>
+                <img src="../assets/img/spidi.jpg" alt="Spiderman No Way Home" style="width:70px;height:80px;">
+                <li>Matrix Resurrections <b>22/12</b></li>
+                <img src="../assets/img/matrix.jpg" alt="Matrix Resurrections" style="width:70px;height:80px;">
+                <li>West Side Story <b>22/12</b> </li>
+                <img src="../assets/img/west.jpg" alt="West Side Story" style="width:70px;height:80px;">
+            </ul>
         </p-card>
     </div>
 </div>

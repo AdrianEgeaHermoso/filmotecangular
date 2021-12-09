@@ -4,13 +4,11 @@
   <ng-template pTemplate="header">
     <tr>
       <th>ID</th>
-      <th>Código</th>
-      <th>Nombre</th>
-      <th>Descripción</th>
+      <th>Título</th>
+      <th>Sinopsis</th>
       <th>Precio</th>
-      <th>Cantidad</th>
-      <th>Estado de inventario</th>
-      <th>Categoría</th>
+      <th>Formato</th>
+      <th>Género</th>
       <th>Imagen</th>
       <th>Puntuación</th>
       <th></th>
@@ -20,13 +18,11 @@
   <ng-template pTemplate="body" let-p>
     <tr>
       <td>{{p.id}}</td>
-      <td>{{p.code}}</td>
-      <td>{{p.name}}</td>
+      <td>{{p.title}}</td>
       <td>{{p.description}}</td>
-      <td>{{p.price}}</td>
-      <td>{{p.quantity}}</td>
-      <td>{{p.inventoryStatus}}</td>
-      <td>{{p.category}}</td>
+      <td>{{p.price}}€</td>
+      <td>{{p.format}}</td>
+      <td>{{p.gender}}</td>
       <td><img [src]="'../assets/img/' + p.image" width="120px"></td>
       <td>{{p.rating}}</td>
       <td>
