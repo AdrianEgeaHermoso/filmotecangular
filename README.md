@@ -4,7 +4,7 @@ En esta aplicación podrás ver tu listado de películas, ademas de enterarte de
 
 En la pantalla inicial, este es su aspecto.
 #
-<img height="300px" width="400px" src="/src/assets/img/Screenshot_1.png">
+<img height="300px" width="600px" src="/src/assets/img/Screenshot_1.png">
 <img height="300px" src="/src/assets/img/Screenshot_3.png">
 
 Le he añadido un favicon.
