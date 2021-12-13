@@ -8,20 +8,18 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'filmotecangular';
-  tablon!: URL[];
-  edad = 0;
-  name = String;
 
-  urls = [{"name":"ebay","url":"http://ebay.com"},
-{"name":"amazon","url":"http://amazon.com"},
-{"name":"msn","url":"http://msn.com"},
-{"name":"yahoo","url":"http://yahoo.com"},
-{"name":"wikipedia","url":"http://wikipedia.org"}];
+  public images=[
+    {src:'/assets/img/marlon.png'},
+    {src:'assets/img/marilyn.png'},
+    {src:'assets/img/burt.png'},
+    {src:'assets/img/marx.png'},
+  ];
+
+  edad = 0;
 
   constructor() { }
 ngOnInit() {
-//this.tablon = ["https://www.py4u.net/discuss/1168541", "5", "8", "24", "32", "11", "55"];
-//this.fruits = ["pera", "manzana", "melón", "sandía", "mango"];
 }
 
   
