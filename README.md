@@ -8,6 +8,7 @@ En la pantalla inicial, este es su aspecto.
 <img height="300px" width="800px" src="/src/assets/img/Screenshot_3.png">
 
 Le he añadido un favicon.
+#
 <img height="300px" width="800px" src="/src/assets/img/Screenshot_7.png">
 
 
