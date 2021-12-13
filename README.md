@@ -21,23 +21,23 @@ Apartado con un botón para acceder al listado de películas, el cual es una tab
 
 Aquí se muestra la tabla con el listado de películas y sus diferentes atributos.
 #
-<img height="300px" width="800px" src="/src/assets/img/Screenshot_7.png">
+<img height="300px" width="800px" src="/src/assets/img/Screenshot_11.png">
 
 A continuación se puede ver el calendario inline que he añadido, y queda justo encima del apartado de estrenos, para que el usuario pueda ver la fecha del estreno y en que día estamos en ese momento.
 #
-<img height="300px" width="800px" src="/src/assets/img/Screenshot_7.png">
+<img height="300px" width="800px" src="/src/assets/img/Screenshot_5.png">
 
 Este sería un listado con los próximos estrenos.
 #
-<img height="300px" width="800px" src="/src/assets/img/Screenshot_7.png">
+<img height="300px" width="800px" src="/src/assets/img/Screenshot_10.png">
 
 En este otro apartado muestro las recomendaciones de películas según la edad con un NgIf, introducida en ese input por el usuario, el cual podría ir renovando cada cierto tiempo.
 #
-<img height="300px" width="800px" src="/src/assets/img/Screenshot_7.png">
+<img height="300px" width="800px" src="/src/assets/img/Screenshot_8.png">
 
 Y por último, otro apartado de la app sería un NgFor con un homenaje a actores y actrices de la historia, que iría actualizando cada mes.
 #
-<img height="300px" width="800px" src="/src/assets/img/Screenshot_7.png">
+<img height="300px" width="800px" src="/src/assets/img/Screenshot_9.png">
 
 
 
