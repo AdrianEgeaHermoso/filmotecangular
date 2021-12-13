@@ -13,11 +13,11 @@ Le he añadido un favicon.
 
 Card de Bienvenida al usuario, y botón de regreso al Home si estuviera el usuario viendo el listado y quisiera dejar de verlo, y ver únicamente la pantalla principal.
 #
-<img height="300px" width="800px" src="/src/assets/img/Screenshot_7.png">
+<img height="300px" width="800px" src="/src/assets/img/Screenshot_6.png">
 
 Apartado con un botón para acceder al listado de películas, el cual es una tabla con los diferentes atributos que he añadido a la tabla, y se muestra en la parte inferior al pulsar el botón.
 #
-<img height="300px" width="800px" src="/src/assets/img/Screenshot_7.png">
+<img height="300px" width="800px" src="/src/assets/img/Screenshot_4.png">
 
 Aquí se muestra la tabla con el listado de películas y sus diferentes atributos.
 #
