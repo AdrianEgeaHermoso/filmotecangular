@@ -9,7 +9,7 @@ En la pantalla inicial, este es su aspecto.
 
 Le he añadido un favicon.
 #
-<img height="300px" width="800px" src="/src/assets/img/Screenshot_7.png">
+<img height="250px" width="500px" src="/src/assets/img/Screenshot_7.png">
 
 Card de Bienvenida al usuario, y botón de regreso al Home si estuviera el usuario viendo el listado y quisiera dejar de verlo, y ver únicamente la pantalla principal.
 #
